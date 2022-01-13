@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: s3-streamer
+server:
+  port: '${SERVER_PORT:9999}'
+  
+aws:
+  region: "${AWS_REGION:eu-central-1}"
